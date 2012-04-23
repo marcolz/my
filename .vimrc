@@ -12,7 +12,6 @@ set cursorline
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set autoindent
 
 " To highlight all search matches
 set hlsearch
@@ -40,12 +39,12 @@ syntax on
 filetype plugin indent on
 
 " Set PHP syntax for .phtml files (http://beerpla.net/2008/04/02/how-to-add-a-vim-file-extension-to-syntax-highlighting/)
-au BufNewFile,BufRead *.phtml set filetype=php tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.phtml set filetype=php tabstop=4 shiftwidth=4 autoindent
 " Set just a different indentation style for PHP script files
-au BufNewFile,BufRead *.php set tabstop=4 shiftwidth=4
+au BufNewFile,BufRead *.php set tabstop=4 shiftwidth=4 autoindent
 
-au BufNewFile,BufRead *.css set tabstop=2 shiftwidth=2
-au BufNewFile,BufRead *.scss set tabstop=2 shiftwidth=2
+au BufNewFile,BufRead *.css set tabstop=2 shiftwidth=2 autoindent
+au BufNewFile,BufRead *.scss set tabstop=2 shiftwidth=2 autoindent
 
 " Automatically cd into the directory that the file is in
 autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
@@ -61,6 +60,9 @@ au BufNewFile,BufRead *.rb set colorcolumn=80
 au BufNewFile,BufRead *.php set colorcolumn=80
 au BufNewFile,BufRead *.js set colorcolumn=80
 au BufNewFile,BufRead *.clj set colorcolumn=80
+
+" the default red doesnt play well with certain syntax highlighters
+highlight ColorColumn ctermbg=LightGray guibg=LightGray
 
 " http://stackoverflow.com/questions/2287440/how-to-do-case-insensitive-search-in-vim
 set smartcase
