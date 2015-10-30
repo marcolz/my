@@ -1,11 +1,13 @@
-### My favorite VIM plugins
+### My essential VIM plugins
 
-- ack.vim
-- ctrlp.vim
-- syntastic
-- vim-airline
+- ack.vim https://github.com/mileszs/ack.vim
+- ctrlp.vim https://github.com/kien/ctrlp.vim
+- syntastic https://github.com/scrooloose/syntastic
+- vim-airline https://github.com/bling/vim-airline
+- vim-vinegar https://github.com/tpope/vim-vinegar
+
+Others:
 - vim-mustache-handlebars
-- vim-vinegar
 
 
 ### Git Templates setup
