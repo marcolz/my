@@ -15,3 +15,9 @@ Others:
 ```sh
 git config --global init.templatedir '~/.git_template'
 ```
+
+This prevents an issue with Vim crashing at times when editing a commit message.
+```sh
+git config --global core.editor /usr/bin/vim
+```
+
