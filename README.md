@@ -6,8 +6,8 @@
 - vim-airline https://github.com/bling/vim-airline
 - vim-vinegar https://github.com/tpope/vim-vinegar
 
-Others:
-- vim-mustache-handlebars
+Do what described here if the issue with Vinegar and Netrw still exists:
+https://github.com/tpope/vim-vinegar/issues/58#issuecomment-156959297
 
 
 ### Git Templates setup
