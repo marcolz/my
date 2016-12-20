@@ -13,9 +13,6 @@ set shiftwidth=2
 " Highlight all search matches
 set hlsearch
 
-" For a shiny smile
-set paste
-
 " Some more default stuff
 filetype plugin on
 filetype plugin indent on
