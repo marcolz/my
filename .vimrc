@@ -56,7 +56,4 @@ highlight ColorColumn ctermbg=LightRed guibg=LightRed
 " http://stackoverflow.com/questions/2287440
 set smartcase
 
-" https://github.com/vim-airline/vim-airline-themes
-let g:airline_theme='solarized'
-
 map <C-n> :NERDTreeToggle<CR>
