@@ -6,7 +6,7 @@
 - https://github.com/bling/vim-airline
 - https://github.com/tpope/vim-vinegar
 
-And, perhaps:
+Plus, maybe:
 - https://github.com/mxw/vim-jsx
 - https://github.com/editorconfig/editorconfig-vim
 - https://github.com/altercation/vim-colors-solarized.git (+ the related iTerm2 color preset)
