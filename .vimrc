@@ -10,6 +10,8 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+syntax enable
+
 " To highlight all search matches
 set hlsearch
 
@@ -30,11 +32,6 @@ set tags=tags;/
 " Disable the bell in MacVim
 set vb
 
-" https://github.com/altercation/vim-colors-solarized
-syntax enable
-set background=light
-colorscheme solarized
-
 au BufNewFile,BufRead *.rb set tabstop=2 shiftwidth=2 colorcolumn=80,100 expandtab
 au BufNewFile,BufRead *.css set tabstop=2 shiftwidth=2 colorcolumn=80,100 expandtab
 au BufNewFile,BufRead *.scss set tabstop=2 shiftwidth=2 colorcolumn=80,100 expandtab
@@ -43,10 +40,6 @@ au BufNewFile,BufRead *.jsx set tabstop=2 shiftwidth=2 colorcolumn=80,100 expand
 au BufNewFile,BufRead *.py set tabstop=2 shiftwidth=2 colorcolumn=80,100 expandtab
 " au FileType gitcommit set colorcolumn=50,72
 au FileType gitcommit set colorcolumn=72 " Yerdle
-
-" Add dash to autocomplete (for class names and IDs)
-" http://stackoverflow.com/questions/9336113
-autocmd FileType jsx,html,css,scss set iskeyword+=-
 
 " Automatically cd into the directory that the file is in
 autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
@@ -58,22 +51,12 @@ autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endif
 set showcmd
 
 " the default red doesnt play well with certain syntax highlighters
-" highlight ColorColumn ctermbg=LightRed guibg=LightRed
+highlight ColorColumn ctermbg=LightRed guibg=LightRed
 
 " http://stackoverflow.com/questions/2287440
 set smartcase
 
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_loc_list_height = 5
-let g:syntastic_auto_loc_list = 0
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
-let g:syntastic_javascript_checkers = ['eslint']
-
 " https://github.com/vim-airline/vim-airline-themes
 let g:airline_theme='solarized'
+
+map <C-n> :NERDTreeToggle<CR>
