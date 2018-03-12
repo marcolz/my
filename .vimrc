@@ -56,4 +56,8 @@ highlight ColorColumn ctermbg=LightRed guibg=LightRed
 " http://stackoverflow.com/questions/2287440
 set smartcase
 
+" https://github.com/scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
+
+" https://github.com/kien/ctrlp.vim/issues/58
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
