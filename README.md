@@ -5,7 +5,7 @@
 - https://github.com/bling/vim-airline
 - https://github.com/scrooloose/nerdtree
 - https://github.com/mxw/vim-jsx
-
+- https://github.com/tpope/vim-surround
 
 ### Git Templates setup
 
