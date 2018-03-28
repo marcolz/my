@@ -58,6 +58,8 @@ set smartcase
 
 " https://github.com/scrooloose/nerdtree
 map <C-n> :NERDTreeToggle<CR>
+" https://stackoverflow.com/questions/7239192
+let NERDTreeQuitOnOpen=1
 
 " https://github.com/kien/ctrlp.vim/issues/58
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
