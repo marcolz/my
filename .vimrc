@@ -5,12 +5,12 @@ call pathogen#infect()
 " http://www.linuxfromscratch.org/lfs/view/development/chapter06/vim.html
 set nocompatible
 
+syntax enable
+
 set cursorline
 set expandtab
 set tabstop=2
 set shiftwidth=2
-
-syntax enable
 
 " To highlight all search matches
 set hlsearch
@@ -63,3 +63,12 @@ let NERDTreeQuitOnOpen=1
 
 " https://github.com/kien/ctrlp.vim/issues/58
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" https://github.com/altercation/vim-colors-solarized
+" https://github.com/vim-airline/vim-airline-themes
+set background=light
+colorscheme solarized
+let g:solarized_termcolors=256
+let g:solarized_visibility="high"
+let g:airline_theme="solarized"
+let g:airline_solarized_bg="light"
