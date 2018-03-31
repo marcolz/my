@@ -6,6 +6,13 @@
 - https://github.com/scrooloose/nerdtree
 - https://github.com/mxw/vim-jsx
 - https://github.com/tpope/vim-surround
+- https://github.com/altercation/vim-colors-solarized
+
+
+### iTerm2 theme
+
+- https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized
+
 
 ### Git Templates setup
 
