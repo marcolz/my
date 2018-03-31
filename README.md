@@ -7,6 +7,7 @@
 - https://github.com/mxw/vim-jsx
 - https://github.com/tpope/vim-surround
 - https://github.com/altercation/vim-colors-solarized
+- https://github.com/vim-airline/vim-airline-themes
 
 
 ### iTerm2 theme
