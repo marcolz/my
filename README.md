@@ -25,3 +25,11 @@ This prevents an issue with Vim crashing at times, when editing a commit message
 ```sh
 git config --global core.editor /usr/bin/vim
 ```
+
+
+### Save screenshots into Downloads
+
+```sh
+defaults write com.apple.screencapture location ~/Downloads/
+killall SystemUIServer
+```
