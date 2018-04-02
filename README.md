@@ -9,6 +9,11 @@
 - https://github.com/altercation/vim-colors-solarized
 - https://github.com/vim-airline/vim-airline-themes
 
+This prevents an issue with Vim crashing at times, when editing a commit message.
+```sh
+git config --global core.editor /usr/bin/vim
+```
+
 
 ### iTerm2 theme
 
@@ -19,11 +24,6 @@
 
 ```sh
 git config --global init.templatedir '~/.git_template'
-```
-
-This prevents an issue with Vim crashing at times, when editing a commit message.
-```sh
-git config --global core.editor /usr/bin/vim
 ```
 
 
