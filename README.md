@@ -1,5 +1,6 @@
 ### My essential VIM plugins
 
+- https://github.com/tpope/vim-pathogen
 - https://github.com/mileszs/ack.vim
 - https://github.com/kien/ctrlp.vim
 - https://github.com/bling/vim-airline
@@ -14,6 +15,12 @@ This prevents an issue with Vim crashing at times, when editing a commit message
 git config --global core.editor /usr/bin/vim
 ```
 
+### Set the hostname
+
+```sh
+sudo scutil --set HostName <hostname>
+dscacheutil -flushcache
+```
 
 ### iTerm2 theme
 
