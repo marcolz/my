@@ -39,5 +39,6 @@ git config --global init.templatedir '~/.git_template'
 
 ```sh
 defaults write com.apple.screencapture location ~/Downloads/
+defaults write com.apple.screencapture type jpg
 killall SystemUIServer
 ```
