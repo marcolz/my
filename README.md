@@ -34,6 +34,11 @@ dscacheutil -flushcache
 git config --global init.templatedir '~/.git_template'
 ```
 
+```
+$ git config diff.nodiff.command /usr/bin/true
+$ cat ./.git/info/attributes
+package-lock.json  diff=nodiff
+```
 
 ### Save screenshots into Downloads
 
