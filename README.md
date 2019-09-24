@@ -4,12 +4,13 @@
 - https://github.com/bling/vim-airline
 - https://github.com/kien/ctrlp.vim
 - https://github.com/mileszs/ack.vim
-- https://github.com/mxw/vim-jsx
+- https://github.com/MaxMEllon/vim-jsx-pretty
 - https://github.com/pangloss/vim-javascript
 - https://github.com/scrooloose/nerdtree
 - https://github.com/tpope/vim-pathogen
 - https://github.com/tpope/vim-surround
 - https://github.com/vim-airline/vim-airline-themes
+- https://github.com/dense-analysis/ale
 
 This prevents an issue with Vim crashing at times, when editing a commit message.
 ```sh
