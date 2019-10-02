@@ -1,16 +1,17 @@
 ### VIM plugins
 
+- https://github.com/MaxMEllon/vim-jsx-pretty
 - https://github.com/altercation/vim-colors-solarized
 - https://github.com/bling/vim-airline
+- https://github.com/dense-analysis/ale
 - https://github.com/kien/ctrlp.vim
 - https://github.com/mileszs/ack.vim
-- https://github.com/MaxMEllon/vim-jsx-pretty
 - https://github.com/pangloss/vim-javascript
 - https://github.com/scrooloose/nerdtree
+- https://github.com/tpope/vim-abolish
 - https://github.com/tpope/vim-pathogen
 - https://github.com/tpope/vim-surround
 - https://github.com/vim-airline/vim-airline-themes
-- https://github.com/dense-analysis/ale
 
 This prevents an issue with Vim crashing at times, when editing a commit message.
 ```sh
@@ -41,7 +42,7 @@ $ cat ./.git/info/attributes
 package-lock.json  diff=nodiff
 ```
 
-### Save screenshots into Downloads
+### Save screenshots as JPEGs and into Downloads
 
 ```sh
 defaults write com.apple.screencapture location ~/Downloads/
