@@ -9,6 +9,7 @@
 - https://github.com/pangloss/vim-javascript
 - https://github.com/scrooloose/nerdtree
 - https://github.com/tpope/vim-abolish
+- https://github.com/tpope/vim-fugitive
 - https://github.com/tpope/vim-pathogen
 - https://github.com/tpope/vim-surround
 - https://github.com/vim-airline/vim-airline-themes
