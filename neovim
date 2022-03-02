@@ -1,8 +1,5 @@
 call plug#begin()
-Plug 'altercation/vim-colors-solarized'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'hashivim/vim-terraform'
-Plug 'jparise/vim-graphql'
+" Plug 'jparise/vim-graphql'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'mattn/emmet-vim'
@@ -13,9 +10,6 @@ Plug 'preservim/nerdtree'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-" Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 set expandtab
@@ -37,11 +31,6 @@ set shortmess+=c
 
 " https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file
 " set autochdir
-
-" https://github.com/altercation/vim-colors-solarized
-" https://github.com/vim-airline/vim-airline-themes
-set background=light
-colorscheme solarized
 
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
